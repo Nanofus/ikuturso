@@ -1,5 +1,6 @@
 body {
 	background-color: #FFFFFF;
+	font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 main {
@@ -8,7 +9,6 @@ main {
 	margin-top: 30vh;
 	margin-bottom: 30vh;
 	max-width: 25rem;
-	font-family: 'Open Sans', sans-serif;
 	color: #455A64;
 	text-align: center;
 }
@@ -61,7 +61,6 @@ footer {
 
 	text-align: center;
 	font-size: 70%;
-	font-family: 'Open Sans', sans-serif;
 
 	opacity: 0.4;
 	transition: all .8s ease-in-out;
