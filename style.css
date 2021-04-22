@@ -1,110 +1,50 @@
+:root {
+    --text: #222;
+    --background: #FFF;
+    --link: #4fc3f7;
+}
+
 body {
-	background-color: #FFFFFF;
-	font-family: 'Fira Sans Condensed', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: var(--text);
+	background-color: var(--background);
 }
 
 main {
-	position: relative;
-	margin: auto;
-	margin-top: 30vh;
-	margin-bottom: 30vh;
-	max-width: 25rem;
-	color: #455A64;
-	text-align: center;
-}
-
-#logo {
-	position: relative;
-	transition: transform .8s ease-in-out;
-
-	width: 100%;
-	height: 17.5rem;
-
-	background-image: url("ikuturso2small.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center top;
-}
-
-#logo:hover {
-	transition: transform .8s ease-in-out;
-	-webkit-transform: rotate(3deg);
-	transform: rotate(3deg);
-}
-
-#name {
 	position: absolute;
-	bottom: 0;
-
-	width: 100%;
-
-	text-align: center;
-	font-size: 270%;
-	color: #1E88E5;
-
-	font-family: 'Jura', sans-serif;
-}
-
-.time {
-	color: #90A4AE;
-	font-size: 0.8rem;
-}
-
-section {
-	margin-top: 6rem;
-}
-
-footer {
-	position: fixed;
-	bottom: 1rem;
-	width: 100%;
-
-	text-align: center;
-	font-size: 70%;
-
-	opacity: 0.4;
-	transition: all .8s ease-in-out;
-}
-
-footer:hover {
-	opacity: 1.0;
-	transition: all .8s ease-in-out;
-}
-
-h2 {
-	padding-bottom: 1rem;
+	top: 40%;
+	left: 20%;
 }
 
 a {
-	color: #1E88E5;
 	text-decoration: none;
-	transition: color 0.5s ease;
-}
-a:hover {
-	color: #42A5F5;
-	text-decoration: none;
+    color: var(--link);
 }
 
-ul {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
+h1 {
+	font-size: 3rem;
+	height: 5rem;
+	line-height: 5rem;
 }
 
-li {
-	padding-bottom: 1rem;
+h1 img {
+	display: inline;
+	vertical-align: middle;
+	width: 5rem;
+	height: 5rem;
+	user-select: none;
 }
 
-li a {
-	font-size: 1.1rem;
+h1 span {
+	display: inline-block;
+	padding-left: 1rem;
+	text-align: center;
 }
 
-::selection {
-	color: #FFFFFF;
-	background: #42A5F5;
-}
-
-::-moz-selection {
-	color: #FFFFFF;
-	background: #42A5F5;
+footer {
+	position: absolute;
+	left: 2rem;
+	bottom: 2rem;
+	font-size: 1rem;
 }
