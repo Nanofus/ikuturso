@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	color: var(--text);
 	background-color: var(--background);
@@ -26,6 +26,7 @@ h1 {
 	font-size: 3rem;
 	height: 5rem;
 	line-height: 5rem;
+	font-weight: 200;
 }
 
 h1 img {
